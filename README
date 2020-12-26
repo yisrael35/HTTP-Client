@@ -1,0 +1,19 @@
+Name : Yisrael Bar
+
+Exercise: EX2 - HTTP client.
+
+Submitted Files:
+In this exercise we have 2 files:
+	1) client.c – a program that implements HTTP client that constructs an HTTP request based on user’s command line input, sends the request to a Web server, receives the reply from the server, and displays the reply the message on screen.
+	   (support only IPv4 connections.)  
+	2) README - File that describes the files in the exercise.
+
+Remarks: 
+The program implements client request from server by the following functions:
+	main - proccess the incoming parmeters and make an http request
+    vaildHostName - chack if the host name has a value and if he doesen't print to stderr and exit
+    error - print perror and exit in case there is problame with system call
+    badUseg - in case there is a problame with enterd values print to stderr :
+        Usage: client [-p <text>] [-r n < pr1=value1pr2=value2 ...>] <URL>
+
+
